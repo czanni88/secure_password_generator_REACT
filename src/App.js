@@ -68,7 +68,7 @@ function App() {
 
   return (
     <div className='App'>
-      <h1>Secure Password Generator</h1>
+      <h1 className='mainTitle'>Secure Password Generator</h1>
       <Form
         handleChange={handleChange}
         handleSubmit={handleSubmit}
